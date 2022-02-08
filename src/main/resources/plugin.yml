@@ -1,0 +1,14 @@
+name: PitchOut
+description: PitchOut
+authors: [ Jielos ]
+website: https://jielos.fr/
+
+version: '${project.version}'
+main: fr.jielos.pitchout.Main
+depends: [Netherboard]
+
+commands:
+  forcestart:
+    description: Permet de forcer le démarrage de la partie.
+    permission: op
+    permission-message: "§cVous n'avez pas les permissions suffisantes."

@@ -1,0 +1,42 @@
+minPlayers: 2
+maxPlayers: 16
+mapName: "Example"
+
+rules:
+  healths: 5
+  yLimit: 45
+
+timers:
+  launch: 30 #Seconds
+  end: 15 #Seconds
+
+scoreboard:
+  title: "§8- §6§lPitchOut §8-"
+  footer:
+    enabled: true
+    content: "§eplay.jielos.fr"
+
+locations:
+  waitingRoom:
+    ==: org.bukkit.Location
+    world: pitchout
+    x: 0.5
+    y: 69.5
+    z: 0.5
+    pitch: 0
+    yaw: 0
+  spawns:
+    blockId: 170
+    cuboid:
+      '1':
+        ==: org.bukkit.Location
+        world: pitchout
+        x: 100
+        y: 60
+        z: 100
+      '2':
+        ==: org.bukkit.Location
+        world: pitchout
+        x: -100
+        y: 35
+        z: -100
