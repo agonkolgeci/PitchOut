@@ -11,4 +11,4 @@ Ce projet vous est mis a disposition dans une volonté de partage il est ainsi e
 PitchOut est un mini-jeu consistant à expulser les joueurs en dehors de la plateforme de jeu pour leur faire perdre une vie, le but étant de conserver pour remporter la partie.
 
 ## Crédits
-- Utilisation de l'API [Netherboard](https://github.com/MinusKube/Netherboard/)
+- Utilisation de l'API [Netherboard](https://github.com/MinusKube/Netherboard/) par [MinusKube](https://github.com/MinusKube)
